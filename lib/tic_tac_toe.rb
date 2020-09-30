@@ -19,7 +19,7 @@ class TicTacToe
   def input_to_index(num)
     index = num.to_i
     index -= 1
-    index
+    # index
   end
   
   def move(index, player = "X")
